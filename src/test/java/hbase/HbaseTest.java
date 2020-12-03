@@ -302,7 +302,6 @@ public class HbaseTest {
       }
       System.out.println("-----------------------------------------");
     }
-
   }
 
   @After
