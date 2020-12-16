@@ -10,6 +10,7 @@
   <packaging>jar</packaging>
 
   <properties>
+    <hadoop.version>3.0.0</hadoop.version>
     <hive.version>2.1.1</hive.version>
     <hbase.version>2.1.0</hbase.version>
   </properties>
@@ -24,27 +25,27 @@
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-hdfs</artifactId>
-      <version>3.0.0</version>
+      <version>${hadoop.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-common</artifactId>
-      <version>3.0.0</version>
+      <version>${hadoop.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-yarn-common</artifactId>
-      <version>3.0.0</version>
+      <version>${hadoop.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-mapreduce-client-common</artifactId>
-      <version>3.0.0</version>
+      <version>${hadoop.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-auth</artifactId>
-      <version>3.0.0</version>
+      <version>${hadoop.version}</version>
     </dependency>
 
     <!-- hive UDF -->
